@@ -1,0 +1,960 @@
+GetTimestampOverhead     : 0 total=188.176035ms  i=0.000019ms i=18.82ns  Loop:10,000,000
+GetTimestampOverhead     : 1 total=210.830266ms  i=0.000021ms i=21.08ns  Loop:10,000,000
+GetTimestampOverhead     : 2 total=233.292286ms  i=0.000023ms i=23.33ns  Loop:10,000,000
+GetTimestampOverhead     : 3 total=206.339129ms  i=0.000021ms i=20.63ns  Loop:10,000,000
+GetTimestampOverhead     : 4 total=205.411271ms  i=0.000021ms i=20.54ns  Loop:10,000,000
+GetTimestampOverhead     : 5 total=190.757443ms  i=0.000019ms i=19.08ns  Loop:10,000,000
+GetTimestampOverhead     : 6 total=219.884354ms  i=0.000022ms i=21.99ns  Loop:10,000,000
+SUMMARY:GetTimestampOverhead           min:18.82 max:23.33 avg:20.78
+
+GetTimestampOverheadArray: 0 total=230.562119ms  i=0.000023ms i=23.06ns  Loop:10,000,000
+GetTimestampOverheadArray: 1 total=215.991875ms  i=0.000022ms i=21.60ns  Loop:10,000,000
+GetTimestampOverheadArray: 2 total=220.209331ms  i=0.000022ms i=22.02ns  Loop:10,000,000
+GetTimestampOverheadArray: 3 total=210.024915ms  i=0.000021ms i=21.00ns  Loop:10,000,000
+GetTimestampOverheadArray: 4 total=215.887773ms  i=0.000022ms i=21.59ns  Loop:10,000,000
+GetTimestampOverheadArray: 5 total=212.087929ms  i=0.000021ms i=21.21ns  Loop:10,000,000
+GetTimestampOverheadArray: 6 total=251.284292ms  i=0.000025ms i=25.13ns  Loop:10,000,000
+SUMMARY:GetTimestampOverheadArray      min:21.00 max:25.13 avg:22.23
+
+CreateThread                  : 0 (Create              ) =        0.024743ms =        24742.89 ns
+CreateThread                  : 0 (TimeToStart         ) =        0.126732ms =       126731.89 ns *
+CreateThread                  : 1 (Create              ) =        0.010863ms =        10862.73 ns
+CreateThread                  : 1 (TimeToStart         ) =        0.011768ms =        11767.96 ns *
+CreateThread                  : 2 (Create              ) =        0.003319ms =         3319.17 ns
+CreateThread                  : 2 (TimeToStart         ) =        0.003923ms =         3922.65 ns *
+CreateThread                  : 3 (Create              ) =        0.003017ms =         3017.43 ns
+CreateThread                  : 3 (TimeToStart         ) =        0.004526ms =         4526.14 ns *
+CreateThread                  : 4 (Create              ) =        0.008147ms =         8147.05 ns
+CreateThread                  : 4 (TimeToStart         ) =        0.006638ms =         6638.34 ns *
+CreateThread                  : 5 (Create              ) =        0.002716ms =         2715.68 ns
+CreateThread                  : 5 (TimeToStart         ) =        0.009958ms =         9957.51 ns *
+CreateThread                  : 6 (Create              ) =        0.004828ms =         4827.88 ns
+CreateThread                  : 6 (TimeToStart         ) =        0.005733ms =         5733.11 ns *
+CreateThread                  : 7 (Create              ) =        0.020217ms =        20216.75 ns
+CreateThread                  : 7 (TimeToStart         ) =        0.005431ms =         5431.37 ns *
+CreateThread                  : 8 (Create              ) =        0.004526ms =         4526.14 ns
+CreateThread                  : 8 (TimeToStart         ) =        0.006940ms =         6940.08 ns *
+CreateThread                  : 9 (Create              ) =        0.004828ms =         4827.88 ns
+CreateThread                  : 9 (TimeToStart         ) =        0.006638ms =         6638.34 ns *
+CreateThread                  :10 (Create              ) =        0.005130ms =         5129.62 ns
+CreateThread                  :10 (TimeToStart         ) =        0.007544ms =         7543.56 ns *
+CreateThread                  :11 (Create              ) =        0.005130ms =         5129.62 ns
+CreateThread                  :11 (TimeToStart         ) =        0.003621ms =         3620.91 ns *
+SUMMARY:CreateThread                   min:3620.91 max:126731.89 avg:6095.20 (Skip First 2)
+
+CreateTask                    : 0 (Create              ) =        0.006940ms =         6940.08 ns
+CreateTask                    : 0 (TimeToStart         ) =        0.341271ms =       341270.87 ns *
+CreateTask                    : 1 (Create              ) =        0.000905ms =          905.23 ns
+CreateTask                    : 1 (TimeToStart         ) =        0.009052ms =         9052.28 ns *
+CreateTask                    : 2 (Create              ) =        0.000603ms =          603.49 ns
+CreateTask                    : 2 (TimeToStart         ) =        0.003923ms =         3922.65 ns *
+CreateTask                    : 3 (Create              ) =        0.000603ms =          603.49 ns
+CreateTask                    : 3 (TimeToStart         ) =        0.004224ms =         4224.40 ns *
+CreateTask                    : 4 (Create              ) =        0.000302ms =          301.74 ns
+CreateTask                    : 4 (TimeToStart         ) =        0.006940ms =         6940.08 ns *
+CreateTask                    : 5 (Create              ) =        0.000603ms =          603.49 ns
+CreateTask                    : 5 (TimeToStart         ) =        0.006035ms =         6034.85 ns *
+CreateTask                    : 6 (Create              ) =        0.000603ms =          603.49 ns
+CreateTask                    : 6 (TimeToStart         ) =        0.007242ms =         7241.82 ns *
+CreateTask                    : 7 (Create              ) =        0.000603ms =          603.49 ns
+CreateTask                    : 7 (TimeToStart         ) =        0.004224ms =         4224.40 ns *
+CreateTask                    : 8 (Create              ) =        0.000603ms =          603.49 ns
+CreateTask                    : 8 (TimeToStart         ) =        0.004224ms =         4224.40 ns *
+CreateTask                    : 9 (Create              ) =        0.000302ms =          301.74 ns
+CreateTask                    : 9 (TimeToStart         ) =        0.003621ms =         3620.91 ns *
+CreateTask                    :10 (Create              ) =        0.000302ms =          301.74 ns
+CreateTask                    :10 (TimeToStart         ) =        0.006940ms =         6940.08 ns *
+CreateTask                    :11 (Create              ) =        0.000302ms =          301.74 ns
+CreateTask                    :11 (TimeToStart         ) =        0.004224ms =         4224.40 ns *
+SUMMARY:CreateTask                     min:3620.91 max:341270.87 avg:5159.80 (Skip First 2)
+
+CreateTaskNew                 : 0 (TimeToStart         ) =        0.120395ms =       120395.29 ns *
+CreateTaskNew                 : 0 (StartNewMethod      ) =        0.009354ms =         9354.02 ns
+CreateTaskNew                 : 1 (TimeToStart         ) =        0.012070ms =        12069.70 ns *
+CreateTaskNew                 : 1 (StartNewMethod      ) =        0.002716ms =         2715.68 ns
+CreateTaskNew                 : 2 (TimeToStart         ) =        0.042244ms =        42243.96 ns *
+CreateTaskNew                 : 2 (StartNewMethod      ) =        0.020217ms =        20216.75 ns
+CreateTaskNew                 : 3 (TimeToStart         ) =        0.021122ms =        21121.98 ns *
+CreateTaskNew                 : 3 (StartNewMethod      ) =        0.004224ms =         4224.40 ns
+CreateTaskNew                 : 4 (TimeToStart         ) =        0.016596ms =        16595.84 ns *
+CreateTaskNew                 : 4 (StartNewMethod      ) =        0.003923ms =         3922.65 ns
+CreateTaskNew                 : 5 (TimeToStart         ) =        0.009958ms =         9957.51 ns *
+CreateTaskNew                 : 5 (StartNewMethod      ) =        0.003923ms =         3922.65 ns
+CreateTaskNew                 : 6 (TimeToStart         ) =        0.009052ms =         9052.28 ns *
+CreateTaskNew                 : 6 (StartNewMethod      ) =        0.003017ms =         3017.43 ns
+CreateTaskNew                 : 7 (TimeToStart         ) =        0.009958ms =         9957.51 ns *
+CreateTaskNew                 : 7 (StartNewMethod      ) =        0.003923ms =         3922.65 ns
+CreateTaskNew                 : 8 (TimeToStart         ) =        0.008751ms =         8750.54 ns *
+CreateTaskNew                 : 8 (StartNewMethod      ) =        0.003017ms =         3017.43 ns
+CreateTaskNew                 : 9 (TimeToStart         ) =        0.008449ms =         8448.79 ns *
+CreateTaskNew                 : 9 (StartNewMethod      ) =        0.002716ms =         2715.68 ns
+CreateTaskNew                 :10 (TimeToStart         ) =        0.013578ms =        13578.42 ns *
+CreateTaskNew                 :10 (StartNewMethod      ) =        0.007242ms =         7241.82 ns
+CreateTaskNew                 :11 (TimeToStart         ) =        0.009354ms =         9354.02 ns *
+CreateTaskNew                 :11 (StartNewMethod      ) =        0.003621ms =         3620.91 ns
+SUMMARY:CreateTaskNew                  min:8448.79 max:120395.29 avg:14906.08 (Skip First 2)
+
+QueueUserWorkItem             : 0 (TimeToStart         ) =        0.423647ms =       423646.60 ns *
+QueueUserWorkItem             : 0 (QueueUserWorkItem   ) =        0.003621ms =         3620.91 ns
+QueueUserWorkItem             : 1 (TimeToStart         ) =        0.017501ms =        17501.07 ns *
+QueueUserWorkItem             : 1 (QueueUserWorkItem   ) =        0.007242ms =         7241.82 ns
+QueueUserWorkItem             : 2 (TimeToStart         ) =        0.011768ms =        11767.96 ns *
+QueueUserWorkItem             : 2 (QueueUserWorkItem   ) =        0.003923ms =         3922.65 ns
+QueueUserWorkItem             : 3 (TimeToStart         ) =        0.057633ms =        57632.84 ns *
+QueueUserWorkItem             : 3 (QueueUserWorkItem   ) =        0.011466ms =        11466.22 ns
+QueueUserWorkItem             : 4 (TimeToStart         ) =        0.015087ms =        15087.13 ns *
+QueueUserWorkItem             : 4 (QueueUserWorkItem   ) =        0.004224ms =         4224.40 ns
+QueueUserWorkItem             : 5 (TimeToStart         ) =        0.015389ms =        15388.87 ns *
+QueueUserWorkItem             : 5 (QueueUserWorkItem   ) =        0.002716ms =         2715.68 ns
+QueueUserWorkItem             : 6 (TimeToStart         ) =        0.013578ms =        13578.42 ns *
+QueueUserWorkItem             : 6 (QueueUserWorkItem   ) =        0.004224ms =         4224.40 ns
+QueueUserWorkItem             : 7 (TimeToStart         ) =        0.012070ms =        12069.70 ns *
+QueueUserWorkItem             : 7 (QueueUserWorkItem   ) =        0.002716ms =         2715.68 ns
+QueueUserWorkItem             : 8 (TimeToStart         ) =        0.010259ms =        10259.25 ns *
+QueueUserWorkItem             : 8 (QueueUserWorkItem   ) =        0.002112ms =         2112.20 ns
+QueueUserWorkItem             : 9 (TimeToStart         ) =        0.012975ms =        12974.93 ns *
+QueueUserWorkItem             : 9 (QueueUserWorkItem   ) =        0.003923ms =         3922.65 ns
+QueueUserWorkItem             :10 (TimeToStart         ) =        0.010561ms =        10560.99 ns *
+QueueUserWorkItem             :10 (QueueUserWorkItem   ) =        0.002716ms =         2715.68 ns
+QueueUserWorkItem             :11 (TimeToStart         ) =        0.012070ms =        12069.70 ns *
+QueueUserWorkItem             :11 (QueueUserWorkItem   ) =        0.003621ms =         3620.91 ns
+SUMMARY:QueueUserWorkItem              min:10259.25 max:423646.60 avg:17138.98 (Skip First 2)
+
+AsyncAwait                    : 0 (TimeToStart         ) =        1.955895ms =      1955895.49 ns *
+AsyncAwait                    : 1 (TimeToStart         ) =        0.003923ms =         3922.65 ns *
+AsyncAwait                    : 2 (TimeToStart         ) =        0.000905ms =          905.23 ns *
+AsyncAwait                    : 3 (TimeToStart         ) =        0.000603ms =          603.49 ns *
+AsyncAwait                    : 4 (TimeToStart         ) =        0.000302ms =          301.74 ns *
+AsyncAwait                    : 5 (TimeToStart         ) =        0.000302ms =          301.74 ns *
+AsyncAwait                    : 6 (TimeToStart         ) =        0.000302ms =          301.74 ns *
+AsyncAwait                    : 7 (TimeToStart         ) =        0.000302ms =          301.74 ns *
+AsyncAwait                    : 8 (TimeToStart         ) =        0.000302ms =          301.74 ns *
+AsyncAwait                    : 9 (TimeToStart         ) =        0.000302ms =          301.74 ns *
+AsyncAwait                    :10 (TimeToStart         ) =        0.000000ms =            0.00 ns *
+AsyncAwait                    :11 (TimeToStart         ) =        0.000302ms =          301.74 ns *
+SUMMARY:AsyncAwait                     min:0.00 max:1955895.49 avg:362.09 (Skip First 2)
+
+MutexClass                    : 0 (Notify              ) =        0.012371ms =        12371.45 ns *
+MutexClass                    : 1 (Notify              ) =        0.006940ms =         6940.08 ns *
+MutexClass                    : 2 (Notify              ) =        0.006940ms =         6940.08 ns *
+MutexClass                    : 3 (Notify              ) =        0.006337ms =         6336.59 ns *
+MutexClass                    : 4 (Notify              ) =        0.006035ms =         6034.85 ns *
+MutexClass                    : 5 (Notify              ) =        0.006337ms =         6336.59 ns *
+MutexClass                    : 6 (Notify              ) =        0.006337ms =         6336.59 ns *
+MutexClass                    : 7 (Notify              ) =        0.006035ms =         6034.85 ns *
+MutexClass                    : 8 (Notify              ) =        0.006337ms =         6336.59 ns *
+MutexClass                    : 9 (Notify              ) =        0.005733ms =         5733.11 ns *
+MutexClass                    :10 (Notify              ) =        0.006035ms =         6034.85 ns *
+MutexClass                    :11 (Notify              ) =        0.005733ms =         5733.11 ns *
+SUMMARY:MutexClass                     min:5733.11 max:12371.45 avg:6185.72 (Skip First 2)
+
+MonitorClass                  : 0 (Notify              ) =        0.010863ms =        10862.73 ns *
+MonitorClass                  : 1 (Notify              ) =        0.008751ms =         8750.54 ns *
+MonitorClass                  : 2 (Notify              ) =        0.006337ms =         6336.59 ns *
+MonitorClass                  : 3 (Notify              ) =        0.005733ms =         5733.11 ns *
+MonitorClass                  : 4 (Notify              ) =        0.006638ms =         6638.34 ns *
+MonitorClass                  : 5 (Notify              ) =        0.005733ms =         5733.11 ns *
+MonitorClass                  : 6 (Notify              ) =        0.006337ms =         6336.59 ns *
+MonitorClass                  : 7 (Notify              ) =        0.005733ms =         5733.11 ns *
+MonitorClass                  : 8 (Notify              ) =        0.006035ms =         6034.85 ns *
+MonitorClass                  : 9 (Notify              ) =        0.005733ms =         5733.11 ns *
+MonitorClass                  :10 (Notify              ) =        0.006337ms =         6336.59 ns *
+MonitorClass                  :11 (Notify              ) =        0.006035ms =         6034.85 ns *
+SUMMARY:MonitorClass                   min:5733.11 max:10862.73 avg:6065.03 (Skip First 2)
+
+ManualResetEventClass         : 0 (Notify              ) =        0.008449ms =         8448.79 ns *
+ManualResetEventClass         : 1 (Notify              ) =        0.006638ms =         6638.34 ns *
+ManualResetEventClass         : 2 (Notify              ) =        0.006940ms =         6940.08 ns *
+ManualResetEventClass         : 3 (Notify              ) =        0.007845ms =         7845.31 ns *
+ManualResetEventClass         : 4 (Notify              ) =        0.003319ms =         3319.17 ns *
+ManualResetEventClass         : 5 (Notify              ) =        0.006940ms =         6940.08 ns *
+ManualResetEventClass         : 6 (Notify              ) =        0.004224ms =         4224.40 ns *
+ManualResetEventClass         : 7 (Notify              ) =        0.006940ms =         6940.08 ns *
+ManualResetEventClass         : 8 (Notify              ) =        0.005431ms =         5431.37 ns *
+ManualResetEventClass         : 9 (Notify              ) =        0.005431ms =         5431.37 ns *
+ManualResetEventClass         :10 (Notify              ) =        0.004828ms =         4827.88 ns *
+ManualResetEventClass         :11 (Notify              ) =        0.005130ms =         5129.62 ns *
+SUMMARY:ManualResetEventClass          min:3319.17 max:8448.79 avg:5702.94 (Skip First 2)
+
+ManualResetEventSlimClass     : 0 (Notify              ) =        0.011768ms =        11767.96 ns *
+ManualResetEventSlimClass     : 1 (Notify              ) =        0.031079ms =        31079.49 ns *
+ManualResetEventSlimClass     : 2 (Notify              ) =        0.001509ms =         1508.71 ns *
+ManualResetEventSlimClass     : 3 (Notify              ) =        0.000603ms =          603.49 ns *
+ManualResetEventSlimClass     : 4 (Notify              ) =        0.000603ms =          603.49 ns *
+ManualResetEventSlimClass     : 5 (Notify              ) =        0.013578ms =        13578.42 ns *
+ManualResetEventSlimClass     : 6 (Notify              ) =        0.015087ms =        15087.13 ns *
+ManualResetEventSlimClass     : 7 (Notify              ) =        0.002414ms =         2413.94 ns *
+ManualResetEventSlimClass     : 8 (Notify              ) =        0.001810ms =         1810.46 ns *
+ManualResetEventSlimClass     : 9 (Notify              ) =        0.002716ms =         2715.68 ns *
+ManualResetEventSlimClass     :10 (Notify              ) =        0.000603ms =          603.49 ns *
+ManualResetEventSlimClass     :11 (Notify              ) =        0.001810ms =         1810.46 ns *
+SUMMARY:ManualResetEventSlimClass      min:603.49 max:31079.49 avg:4073.53 (Skip First 2)
+
+BarrierClass                  : 0 (Notify              ) =        0.005733ms =         5733.11 ns *
+BarrierClass                  : 1 (Notify              ) =        0.012371ms =        12371.45 ns *
+BarrierClass                  : 2 (Notify              ) =        0.001509ms =         1508.71 ns *
+BarrierClass                  : 3 (Notify              ) =        0.000905ms =          905.23 ns *
+BarrierClass                  : 4 (Notify              ) =        0.020820ms =        20820.24 ns *
+BarrierClass                  : 5 (Notify              ) =        0.012371ms =        12371.45 ns *
+BarrierClass                  : 6 (Notify              ) =        0.001207ms =         1206.97 ns *
+BarrierClass                  : 7 (Notify              ) =        0.000302ms =          301.74 ns *
+BarrierClass                  : 8 (Notify              ) =        0.001207ms =         1206.97 ns *
+BarrierClass                  : 9 (Notify              ) =        0.001207ms =         1206.97 ns *
+BarrierClass                  :10 (Notify              ) =        0.002414ms =         2413.94 ns *
+BarrierClass                  :11 (Notify              ) =        0.006638ms =         6638.34 ns *
+SUMMARY:BarrierClass                   min:301.74 max:20820.24 avg:4858.06 (Skip First 2)
+
+WhileLoop                     : 0 (Notify              ) =        0.000603ms =          603.49 ns *
+WhileLoop                     : 1 (Notify              ) =        0.000905ms =          905.23 ns *
+WhileLoop                     : 2 (Notify              ) =        0.002112ms =         2112.20 ns *
+WhileLoop                     : 3 (Notify              ) =        0.000905ms =          905.23 ns *
+WhileLoop                     : 4 (Notify              ) =        0.000905ms =          905.23 ns *
+WhileLoop                     : 5 (Notify              ) =        0.000603ms =          603.49 ns *
+WhileLoop                     : 6 (Notify              ) =        0.000603ms =          603.49 ns *
+WhileLoop                     : 7 (Notify              ) =        0.000905ms =          905.23 ns *
+WhileLoop                     : 8 (Notify              ) =        0.000905ms =          905.23 ns *
+WhileLoop                     : 9 (Notify              ) =        0.000603ms =          603.49 ns *
+WhileLoop                     :10 (Notify              ) =        0.000905ms =          905.23 ns *
+WhileLoop                     :11 (Notify              ) =        0.000302ms =          301.74 ns *
+SUMMARY:WhileLoop                      min:301.74 max:2112.20 avg:875.05 (Skip First 2)
+
+SUM:3600000000  MemberFunction           : 0 total=325.877475ms  i=0.000033ms i=32.59ns  Loop:10,000,000
+SUM:3600000000  MemberFunction           : 1 total=309.051704ms  i=0.000031ms i=30.91ns  Loop:10,000,000
+SUM:3600000000  MemberFunction           : 2 total=332.599998ms  i=0.000033ms i=33.26ns  Loop:10,000,000
+SUM:3600000000  MemberFunction           : 3 total=299.729669ms  i=0.000030ms i=29.97ns  Loop:10,000,000
+SUM:3600000000  MemberFunction           : 4 total=300.205215ms  i=0.000030ms i=30.02ns  Loop:10,000,000
+SUM:3600000000  MemberFunction           : 5 total=305.707793ms  i=0.000031ms i=30.57ns  Loop:10,000,000
+SUM:3600000000  MemberFunction           : 6 total=300.491569ms  i=0.000030ms i=30.05ns  Loop:10,000,000
+SUMMARY:MemberFunction                 min:29.97 max:33.26 avg:31.05
+
+SUM:3600000000  VirtualFunction          : 0 total=307.317590ms  i=0.000031ms i=30.73ns  Loop:10,000,000
+SUM:3600000000  VirtualFunction          : 1 total=310.077931ms  i=0.000031ms i=31.01ns  Loop:10,000,000
+SUM:3600000000  VirtualFunction          : 2 total=344.966013ms  i=0.000034ms i=34.50ns  Loop:10,000,000
+SUM:3600000000  VirtualFunction          : 3 total=318.012554ms  i=0.000032ms i=31.80ns  Loop:10,000,000
+SUM:3600000000  VirtualFunction          : 4 total=342.407840ms  i=0.000034ms i=34.24ns  Loop:10,000,000
+SUM:3600000000  VirtualFunction          : 5 total=342.400598ms  i=0.000034ms i=34.24ns  Loop:10,000,000
+SUM:3600000000  VirtualFunction          : 6 total=329.868624ms  i=0.000033ms i=32.99ns  Loop:10,000,000
+SUMMARY:VirtualFunction                min:30.73 max:34.50 avg:32.79
+
+SUM:3600000000  StaticFunction           : 0 total=312.516615ms  i=0.000031ms i=31.25ns  Loop:10,000,000
+SUM:3600000000  StaticFunction           : 1 total=330.172177ms  i=0.000033ms i=33.02ns  Loop:10,000,000
+SUM:3600000000  StaticFunction           : 2 total=307.913833ms  i=0.000031ms i=30.79ns  Loop:10,000,000
+SUM:3600000000  StaticFunction           : 3 total=305.556318ms  i=0.000031ms i=30.56ns  Loop:10,000,000
+SUM:3600000000  StaticFunction           : 4 total=308.096086ms  i=0.000031ms i=30.81ns  Loop:10,000,000
+SUM:3600000000  StaticFunction           : 5 total=306.044840ms  i=0.000031ms i=30.60ns  Loop:10,000,000
+SUM:3600000000  StaticFunction           : 6 total=320.179066ms  i=0.000032ms i=32.02ns  Loop:10,000,000
+SUMMARY:StaticFunction                 min:30.56 max:33.02 avg:31.29
+
+BitMask                  : 0 total=40.303758ms  i=0.000004ms i=4.03ns  Loop:10,000,000
+BitMask                  : 1 total=30.882147ms  i=0.000003ms i=3.09ns  Loop:10,000,000
+BitMask                  : 2 total=31.436750ms  i=0.000003ms i=3.14ns  Loop:10,000,000
+BitMask                  : 3 total=47.868445ms  i=0.000005ms i=4.79ns  Loop:10,000,000
+BitMask                  : 4 total=39.344217ms  i=0.000004ms i=3.93ns  Loop:10,000,000
+BitMask                  : 5 total=31.087634ms  i=0.000003ms i=3.11ns  Loop:10,000,000
+BitMask                  : 6 total=31.163673ms  i=0.000003ms i=3.12ns  Loop:10,000,000
+SUMMARY:BitMask                        min:3.09 max:4.79 avg:3.60
+
+BooleanArray             : 0 total=117.564949ms  i=0.000012ms i=11.76ns  Loop:10,000,000
+BooleanArray             : 1 total=132.590524ms  i=0.000013ms i=13.26ns  Loop:10,000,000
+BooleanArray             : 2 total=125.745191ms  i=0.000013ms i=12.57ns  Loop:10,000,000
+BooleanArray             : 3 total=116.195641ms  i=0.000012ms i=11.62ns  Loop:10,000,000
+BooleanArray             : 4 total=114.950652ms  i=0.000011ms i=11.50ns  Loop:10,000,000
+BooleanArray             : 5 total=116.924048ms  i=0.000012ms i=11.69ns  Loop:10,000,000
+BooleanArray             : 6 total=119.649387ms  i=0.000012ms i=11.96ns  Loop:10,000,000
+SUMMARY:BooleanArray                   min:11.50 max:13.26 avg:12.05
+
+BooleanList              : 0 total=165.350415ms  i=0.000017ms i=16.54ns  Loop:10,000,000
+BooleanList              : 1 total=143.928200ms  i=0.000014ms i=14.39ns  Loop:10,000,000
+BooleanList              : 2 total=200.943066ms  i=0.000020ms i=20.09ns  Loop:10,000,000
+BooleanList              : 3 total=143.122849ms  i=0.000014ms i=14.31ns  Loop:10,000,000
+BooleanList              : 4 total=142.881756ms  i=0.000014ms i=14.29ns  Loop:10,000,000
+BooleanList              : 5 total=145.512348ms  i=0.000015ms i=14.55ns  Loop:10,000,000
+BooleanList              : 6 total=149.545440ms  i=0.000015ms i=14.95ns  Loop:10,000,000
+SUMMARY:BooleanList                    min:14.29 max:20.09 avg:15.59
+
+BooleanDictionary        : 0 total=1467.150943ms  i=0.000147ms i=146.72ns  Loop:10,000,000
+BooleanDictionary        : 1 total=1587.973204ms  i=0.000159ms i=158.80ns  Loop:10,000,000
+BooleanDictionary        : 2 total=1518.341876ms  i=0.000152ms i=151.83ns  Loop:10,000,000
+BooleanDictionary        : 3 total=1499.896050ms  i=0.000150ms i=149.99ns  Loop:10,000,000
+BooleanDictionary        : 4 total=1459.172567ms  i=0.000146ms i=145.92ns  Loop:10,000,000
+BooleanDictionary        : 5 total=1531.314394ms  i=0.000153ms i=153.13ns  Loop:10,000,000
+BooleanDictionary        : 6 total=1609.865233ms  i=0.000161ms i=160.99ns  Loop:10,000,000
+SUMMARY:BooleanDictionary              min:145.92 max:160.99 avg:152.48
+
+SUM:4  LongArithmetic           : 0 total=48.897689ms  i=0.000005ms i=4.89ns  Loop:10,000,000
+SUM:4  LongArithmetic           : 1 total=48.690995ms  i=0.000005ms i=4.87ns  Loop:10,000,000
+SUM:4  LongArithmetic           : 2 total=44.239990ms  i=0.000004ms i=4.42ns  Loop:10,000,000
+SUM:4  LongArithmetic           : 3 total=48.498484ms  i=0.000005ms i=4.85ns  Loop:10,000,000
+SUM:4  LongArithmetic           : 4 total=54.717097ms  i=0.000005ms i=5.47ns  Loop:10,000,000
+SUM:4  LongArithmetic           : 5 total=43.648877ms  i=0.000004ms i=4.36ns  Loop:10,000,000
+SUM:4  LongArithmetic           : 6 total=55.569218ms  i=0.000006ms i=5.56ns  Loop:10,000,000
+SUMMARY:LongArithmetic                 min:4.36 max:5.56 avg:4.92
+
+SUM:4.227864  FloatArithmetic          : 0 total=82.385987ms  i=0.000008ms i=8.24ns  Loop:10,000,000
+SUM:4.227864  FloatArithmetic          : 1 total=94.487072ms  i=0.000009ms i=9.45ns  Loop:10,000,000
+SUM:4.227864  FloatArithmetic          : 2 total=97.046151ms  i=0.000010ms i=9.70ns  Loop:10,000,000
+SUM:4.227864  FloatArithmetic          : 3 total=82.077908ms  i=0.000008ms i=8.21ns  Loop:10,000,000
+SUM:4.227864  FloatArithmetic          : 4 total=83.134309ms  i=0.000008ms i=8.31ns  Loop:10,000,000
+SUM:4.227864  FloatArithmetic          : 5 total=87.532811ms  i=0.000009ms i=8.75ns  Loop:10,000,000
+SUM:4.227864  FloatArithmetic          : 6 total=85.773953ms  i=0.000009ms i=8.58ns  Loop:10,000,000
+SUMMARY:FloatArithmetic                min:8.21 max:9.70 avg:8.75
+
+SUM:4.22786196986096  DoubleArithmetic         : 0 total=104.221892ms  i=0.000010ms i=10.42ns  Loop:10,000,000
+SUM:4.22786196986096  DoubleArithmetic         : 1 total=101.754543ms  i=0.000010ms i=10.18ns  Loop:10,000,000
+SUM:4.22786196986096  DoubleArithmetic         : 2 total=116.469322ms  i=0.000012ms i=11.65ns  Loop:10,000,000
+SUM:4.22786196986096  DoubleArithmetic         : 3 total=103.360718ms  i=0.000010ms i=10.34ns  Loop:10,000,000
+SUM:4.22786196986096  DoubleArithmetic         : 4 total=100.941648ms  i=0.000010ms i=10.09ns  Loop:10,000,000
+SUM:4.22786196986096  DoubleArithmetic         : 5 total=99.739204ms  i=0.000010ms i=9.97ns  Loop:10,000,000
+SUM:4.22786196986096  DoubleArithmetic         : 6 total=100.501406ms  i=0.000010ms i=10.05ns  Loop:10,000,000
+SUMMARY:DoubleArithmetic               min:9.97 max:11.65 avg:10.39
+
+SUM:4.227861969860960785946215969  DecimalArithmetic        : 0 total=51.562378ms  i=0.000516ms i=515.62ns  Loop:100,000
+SUM:4.227861969860960785946215969  DecimalArithmetic        : 1 total=52.376781ms  i=0.000524ms i=523.77ns  Loop:100,000
+SUM:4.227861969860960785946215969  DecimalArithmetic        : 2 total=51.534316ms  i=0.000515ms i=515.34ns  Loop:100,000
+SUM:4.227861969860960785946215969  DecimalArithmetic        : 3 total=52.596450ms  i=0.000526ms i=525.96ns  Loop:100,000
+SUM:4.227861969860960785946215969  DecimalArithmetic        : 4 total=52.142327ms  i=0.000521ms i=521.42ns  Loop:100,000
+SUM:4.227861969860960785946215969  DecimalArithmetic        : 5 total=52.115472ms  i=0.000521ms i=521.15ns  Loop:100,000
+SUM:4.227861969860960785946215969  DecimalArithmetic        : 6 total=51.855672ms  i=0.000519ms i=518.56ns  Loop:100,000
+SUMMARY:DecimalArithmetic              min:515.34 max:525.96 avg:520.26
+
+SUM:2.941815E+08  FloatMultiplication      : 0 total=56.806061ms  i=0.000006ms i=5.68ns  Loop:10,000,000
+SUM:2.941815E+08  FloatMultiplication      : 1 total=56.047782ms  i=0.000006ms i=5.60ns  Loop:10,000,000
+SUM:2.941815E+08  FloatMultiplication      : 2 total=60.406755ms  i=0.000006ms i=6.04ns  Loop:10,000,000
+SUM:2.941815E+08  FloatMultiplication      : 3 total=58.455687ms  i=0.000006ms i=5.85ns  Loop:10,000,000
+SUM:2.941815E+08  FloatMultiplication      : 4 total=63.425690ms  i=0.000006ms i=6.34ns  Loop:10,000,000
+SUM:2.941815E+08  FloatMultiplication      : 5 total=55.552622ms  i=0.000006ms i=5.56ns  Loop:10,000,000
+SUM:2.941815E+08  FloatMultiplication      : 6 total=57.198326ms  i=0.000006ms i=5.72ns  Loop:10,000,000
+SUMMARY:FloatMultiplication            min:5.56 max:6.34 avg:5.83
+
+SUM:2.941815E+08  SimdMultiplication       : 0 total=19.971739ms  i=0.000002ms i=2.00ns  Loop:10,000,000
+SUM:2.941815E+08  SimdMultiplication       : 1 total=20.475347ms  i=0.000002ms i=2.05ns  Loop:10,000,000
+SUM:2.941815E+08  SimdMultiplication       : 2 total=20.039027ms  i=0.000002ms i=2.00ns  Loop:10,000,000
+SUM:2.941815E+08  SimdMultiplication       : 3 total=20.249945ms  i=0.000002ms i=2.02ns  Loop:10,000,000
+SUM:2.941815E+08  SimdMultiplication       : 4 total=20.120800ms  i=0.000002ms i=2.01ns  Loop:10,000,000
+SUM:2.941815E+08  SimdMultiplication       : 5 total=20.574620ms  i=0.000002ms i=2.06ns  Loop:10,000,000
+SUM:2.941815E+08  SimdMultiplication       : 6 total=20.893562ms  i=0.000002ms i=2.09ns  Loop:10,000,000
+SUMMARY:SimdMultiplication             min:2.00 max:2.09 avg:2.03
+
+Press any key to continue . . .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

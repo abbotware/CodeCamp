@@ -1,0 +1,17 @@
+SUMMARY:MultiThreadInterlocked         min:     13.00 max:     18.57 avg:     15.58  2 Threads
+SUMMARY:MultiThreadInterlocked         min:     32.19 max:     61.33 avg:     41.08  4 Threads
+SUMMARY:MultiThreadInterlocked         min:     57.48 max:    159.03 avg:     81.56  8 Threads
+SUMMARY:MultiThreadInterlocked         min:    120.53 max:    268.40 avg:    171.95  16 Threads
+SUMMARY:MultiThreadInterlocked         min:    260.49 max:    332.10 avg:    295.93  32 Threads
+
+SUMMARY:MultiThreadLockStatement       min:     27.55 max:     33.07 avg:     30.16  2 Threads
+SUMMARY:MultiThreadLockStatement       min:     53.21 max:     74.90 avg:     62.79  4 Threads
+SUMMARY:MultiThreadLockStatement       min:     84.34 max:    129.64 avg:    109.17  8 Threads
+SUMMARY:MultiThreadLockStatement       min:    247.17 max:    303.41 avg:    276.06  16 Threads
+SUMMARY:MultiThreadLockStatement       min:    477.67 max:    788.51 avg:    667.99  32 Threads
+
+SUMMARY:MultiThreadSpinLockStatement   min:     22.29 max:     37.32 avg:     27.11  2 Threads
+SUMMARY:MultiThreadSpinLockStatement   min:     42.97 max:     54.58 avg:     48.29  4 Threads
+SUMMARY:MultiThreadSpinLockStatement   min:     85.92 max:    105.71 avg:     94.88  8 Threads
+SUMMARY:MultiThreadSpinLockStatement   min:    218.21 max:    279.12 avg:    240.40  16 Threads
+SUMMARY:MultiThreadSpinLockStatement   min:    584.67 max:    967.98 avg:    814.20  32 Threads

@@ -1,0 +1,253 @@
+MutexClass                    : 0 (Notify              ) =        0.017199ms =        17199.33 ns *
+MutexClass                    : 1 (Notify              ) =        0.007845ms =         7845.31 ns *
+MutexClass                    : 2 (Notify              ) =        0.005733ms =         5733.11 ns *
+MutexClass                    : 3 (Notify              ) =        0.006638ms =         6638.34 ns *
+MutexClass                    : 4 (Notify              ) =        0.006337ms =         6336.59 ns *
+MutexClass                    : 5 (Notify              ) =        0.005733ms =         5733.11 ns *
+MutexClass                    : 6 (Notify              ) =        0.003621ms =         3620.91 ns *
+MutexClass                    : 7 (Notify              ) =        0.005431ms =         5431.37 ns *
+MutexClass                    : 8 (Notify              ) =        0.006638ms =         6638.34 ns *
+MutexClass                    : 9 (Notify              ) =        0.006035ms =         6034.85 ns *
+MutexClass                    :10 (Notify              ) =        0.006035ms =         6034.85 ns *
+MutexClass                    :11 (Notify              ) =        0.005733ms =         5733.11 ns *
+SUMMARY:MutexClass                     min:   3620.91 max:  17199.33 avg:   5793.46 (Skip First 2)
+
+MonitorClass                  : 0 (Notify              ) =        0.010561ms =        10560.99 ns *
+MonitorClass                  : 1 (Notify              ) =        0.005733ms =         5733.11 ns *
+MonitorClass                  : 2 (Notify              ) =        0.007242ms =         7241.82 ns *
+MonitorClass                  : 3 (Notify              ) =        0.007845ms =         7845.31 ns *
+MonitorClass                  : 4 (Notify              ) =        0.004224ms =         4224.40 ns *
+MonitorClass                  : 5 (Notify              ) =        0.007242ms =         7241.82 ns *
+MonitorClass                  : 6 (Notify              ) =        0.006337ms =         6336.59 ns *
+MonitorClass                  : 7 (Notify              ) =        0.006940ms =         6940.08 ns *
+MonitorClass                  : 8 (Notify              ) =        0.006337ms =         6336.59 ns *
+MonitorClass                  : 9 (Notify              ) =        0.006337ms =         6336.59 ns *
+MonitorClass                  :10 (Notify              ) =        0.007242ms =         7241.82 ns *
+MonitorClass                  :11 (Notify              ) =        0.006940ms =         6940.08 ns *
+SUMMARY:MonitorClass                   min:   4224.40 max:  10560.99 avg:   6668.51 (Skip First 2)
+
+ManualResetEventClass         : 0 (Notify              ) =        0.016596ms =        16595.84 ns *
+ManualResetEventClass         : 1 (Notify              ) =        0.009052ms =         9052.28 ns *
+ManualResetEventClass         : 2 (Notify              ) =        0.009354ms =         9354.02 ns *
+ManualResetEventClass         : 3 (Notify              ) =        0.007242ms =         7241.82 ns *
+ManualResetEventClass         : 4 (Notify              ) =        0.005431ms =         5431.37 ns *
+ManualResetEventClass         : 5 (Notify              ) =        0.004828ms =         4827.88 ns *
+ManualResetEventClass         : 6 (Notify              ) =        0.005130ms =         5129.62 ns *
+ManualResetEventClass         : 7 (Notify              ) =        0.007242ms =         7241.82 ns *
+ManualResetEventClass         : 8 (Notify              ) =        0.003319ms =         3319.17 ns *
+ManualResetEventClass         : 9 (Notify              ) =        0.006940ms =         6940.08 ns *
+ManualResetEventClass         :10 (Notify              ) =        0.004828ms =         4827.88 ns *
+ManualResetEventClass         :11 (Notify              ) =        0.004828ms =         4827.88 ns *
+SUMMARY:ManualResetEventClass          min:   3319.17 max:  16595.84 avg:   5914.15 (Skip First 2)
+
+ManualResetEventSlimClass     : 0 (Notify              ) =        0.006638ms =         6638.34 ns *
+ManualResetEventSlimClass     : 1 (Notify              ) =        0.005130ms =         5129.62 ns *
+ManualResetEventSlimClass     : 2 (Notify              ) =        0.007242ms =         7241.82 ns *
+ManualResetEventSlimClass     : 3 (Notify              ) =        0.006940ms =         6940.08 ns *
+ManualResetEventSlimClass     : 4 (Notify              ) =        0.005733ms =         5733.11 ns *
+ManualResetEventSlimClass     : 5 (Notify              ) =        0.006638ms =         6638.34 ns *
+ManualResetEventSlimClass     : 6 (Notify              ) =        0.006638ms =         6638.34 ns *
+ManualResetEventSlimClass     : 7 (Notify              ) =        0.006337ms =         6336.59 ns *
+ManualResetEventSlimClass     : 8 (Notify              ) =        0.006035ms =         6034.85 ns *
+ManualResetEventSlimClass     : 9 (Notify              ) =        0.006035ms =         6034.85 ns *
+ManualResetEventSlimClass     :10 (Notify              ) =        0.006337ms =         6336.59 ns *
+ManualResetEventSlimClass     :11 (Notify              ) =        0.006035ms =         6034.85 ns *
+SUMMARY:ManualResetEventSlimClass      min:   5129.62 max:   7241.82 avg:   6396.94 (Skip First 2)
+
+BarrierClass                  : 0 (Notify              ) =        0.007242ms =         7241.82 ns *
+BarrierClass                  : 1 (Notify              ) =        0.004828ms =         4827.88 ns *
+BarrierClass                  : 2 (Notify              ) =        0.006337ms =         6336.59 ns *
+BarrierClass                  : 3 (Notify              ) =        0.006035ms =         6034.85 ns *
+BarrierClass                  : 4 (Notify              ) =        0.005733ms =         5733.11 ns *
+BarrierClass                  : 5 (Notify              ) =        0.006337ms =         6336.59 ns *
+BarrierClass                  : 6 (Notify              ) =        0.006035ms =         6034.85 ns *
+BarrierClass                  : 7 (Notify              ) =        0.005431ms =         5431.37 ns *
+BarrierClass                  : 8 (Notify              ) =        0.006035ms =         6034.85 ns *
+BarrierClass                  : 9 (Notify              ) =        0.004526ms =         4526.14 ns *
+BarrierClass                  :10 (Notify              ) =        0.321658ms =       321657.60 ns *
+BarrierClass                  :11 (Notify              ) =        0.007845ms =         7845.31 ns *
+SUMMARY:BarrierClass                   min:   4526.14 max: 321657.60 avg:  37597.13 (Skip First 2)
+
+WhileLoop                     : 0 (Notify              ) =        0.000603ms =          603.49 ns *
+WhileLoop                     : 1 (Notify              ) =        0.000603ms =          603.49 ns *
+WhileLoop                     : 2 (Notify              ) =        0.000603ms =          603.49 ns *
+WhileLoop                     : 3 (Notify              ) =        0.000302ms =          301.74 ns *
+WhileLoop                     : 4 (Notify              ) =        0.000000ms =            0.00 ns *
+WhileLoop                     : 5 (Notify              ) =        0.000302ms =          301.74 ns *
+WhileLoop                     : 6 (Notify              ) =        0.000302ms =          301.74 ns *
+WhileLoop                     : 7 (Notify              ) =        0.000302ms =          301.74 ns *
+WhileLoop                     : 8 (Notify              ) =        0.000000ms =            0.00 ns *
+WhileLoop                     : 9 (Notify              ) =        0.000302ms =          301.74 ns *
+WhileLoop                     :10 (Notify              ) =        0.000302ms =          301.74 ns *
+WhileLoop                     :11 (Notify              ) =        0.000302ms =          301.74 ns *
+SUMMARY:WhileLoop                      min:      0.00 max:    603.49 avg:    271.57 (Skip First 2)
+
+MutexClass                    : 0 (Notify              ) =        0.009354ms =         9354.02 ns *
+MutexClass                    : 1 (Notify              ) =        0.029873ms =        29872.52 ns *
+MutexClass                    : 2 (Notify              ) =        0.015992ms =        15992.36 ns *
+MutexClass                    : 3 (Notify              ) =        0.012673ms =        12673.19 ns *
+MutexClass                    : 4 (Notify              ) =        0.016294ms =        16294.10 ns *
+MutexClass                    : 5 (Notify              ) =        0.009354ms =         9354.02 ns *
+MutexClass                    : 6 (Notify              ) =        0.014182ms =        14181.90 ns *
+MutexClass                    : 7 (Notify              ) =        0.008147ms =         8147.05 ns *
+MutexClass                    : 8 (Notify              ) =        0.053408ms =        53408.44 ns *
+MutexClass                    : 9 (Notify              ) =        0.015992ms =        15992.36 ns *
+MutexClass                    :10 (Notify              ) =        0.022932ms =        22932.44 ns *
+MutexClass                    :11 (Notify              ) =        0.006337ms =         6336.59 ns *
+SUMMARY:MutexClass                     min:   6336.59 max:  53408.44 avg:  17531.24 (Skip First 2)
+
+MonitorClass                  : 0 (Notify              ) =        0.014182ms =        14181.90 ns *
+MonitorClass                  : 1 (Notify              ) =        0.028967ms =        28967.29 ns *
+MonitorClass                  : 2 (Notify              ) =        0.026553ms =        26553.35 ns *
+MonitorClass                  : 3 (Notify              ) =        0.028666ms =        28665.55 ns *
+MonitorClass                  : 4 (Notify              ) =        0.124921ms =       124921.43 ns *
+MonitorClass                  : 5 (Notify              ) =        0.032286ms =        32286.46 ns *
+MonitorClass                  : 6 (Notify              ) =        0.025648ms =        25648.12 ns *
+MonitorClass                  : 7 (Notify              ) =        0.021725ms =        21725.47 ns *
+MonitorClass                  : 8 (Notify              ) =        0.013277ms =        13276.67 ns *
+MonitorClass                  : 9 (Notify              ) =        0.024139ms =        24139.41 ns *
+MonitorClass                  :10 (Notify              ) =        0.023838ms =        23837.66 ns *
+MonitorClass                  :11 (Notify              ) =        0.023234ms =        23234.18 ns *
+SUMMARY:MonitorClass                   min:  13276.67 max: 124921.43 avg:  34428.83 (Skip First 2)
+
+ManualResetEventClass         : 0 (Notify              ) =        0.023234ms =        23234.18 ns *
+ManualResetEventClass         : 1 (Notify              ) =        0.010863ms =        10862.73 ns *
+ManualResetEventClass         : 2 (Notify              ) =        0.008449ms =         8448.79 ns *
+ManualResetEventClass         : 3 (Notify              ) =        0.020518ms =        20518.50 ns *
+ManualResetEventClass         : 4 (Notify              ) =        0.007242ms =         7241.82 ns *
+ManualResetEventClass         : 5 (Notify              ) =        0.007242ms =         7241.82 ns *
+ManualResetEventClass         : 6 (Notify              ) =        0.005431ms =         5431.37 ns *
+ManualResetEventClass         : 7 (Notify              ) =        0.006638ms =         6638.34 ns *
+ManualResetEventClass         : 8 (Notify              ) =        0.006638ms =         6638.34 ns *
+ManualResetEventClass         : 9 (Notify              ) =        0.007845ms =         7845.31 ns *
+ManualResetEventClass         :10 (Notify              ) =        0.005431ms =         5431.37 ns *
+ManualResetEventClass         :11 (Notify              ) =        0.006638ms =         6638.34 ns *
+SUMMARY:ManualResetEventClass          min:   5431.37 max:  23234.18 avg:   8207.40 (Skip First 2)
+
+ManualResetEventSlimClass     : 0 (Notify              ) =        0.007242ms =         7241.82 ns *
+ManualResetEventSlimClass     : 1 (Notify              ) =        0.006337ms =         6336.59 ns *
+ManualResetEventSlimClass     : 2 (Notify              ) =        0.007544ms =         7543.56 ns *
+ManualResetEventSlimClass     : 3 (Notify              ) =        0.005733ms =         5733.11 ns *
+ManualResetEventSlimClass     : 4 (Notify              ) =        0.005130ms =         5129.62 ns *
+ManualResetEventSlimClass     : 5 (Notify              ) =        0.006035ms =         6034.85 ns *
+ManualResetEventSlimClass     : 6 (Notify              ) =        0.028364ms =        28363.80 ns *
+ManualResetEventSlimClass     : 7 (Notify              ) =        0.010863ms =        10862.73 ns *
+ManualResetEventSlimClass     : 8 (Notify              ) =        0.016898ms =        16897.59 ns *
+ManualResetEventSlimClass     : 9 (Notify              ) =        0.021725ms =        21725.47 ns *
+ManualResetEventSlimClass     :10 (Notify              ) =        0.016596ms =        16595.84 ns *
+ManualResetEventSlimClass     :11 (Notify              ) =        0.016294ms =        16294.10 ns *
+SUMMARY:ManualResetEventSlimClass      min:   5129.62 max:  28363.80 avg:  13518.07 (Skip First 2)
+
+BarrierClass                  : 0 (Notify              ) =        0.006940ms =         6940.08 ns *
+BarrierClass                  : 1 (Notify              ) =        0.000302ms =          301.74 ns *
+BarrierClass                  : 2 (Notify              ) =        0.000603ms =          603.49 ns *
+BarrierClass                  : 3 (Notify              ) =        0.007544ms =         7543.56 ns *
+BarrierClass                  : 4 (Notify              ) =        0.015087ms =        15087.13 ns *
+BarrierClass                  : 5 (Notify              ) =        0.003319ms =         3319.17 ns *
+BarrierClass                  : 6 (Notify              ) =        0.009052ms =         9052.28 ns *
+BarrierClass                  : 7 (Notify              ) =        0.000905ms =          905.23 ns *
+BarrierClass                  : 8 (Notify              ) =        0.005130ms =         5129.62 ns *
+BarrierClass                  : 9 (Notify              ) =        0.000603ms =          603.49 ns *
+BarrierClass                  :10 (Notify              ) =        0.003319ms =         3319.17 ns *
+BarrierClass                  :11 (Notify              ) =        0.006638ms =         6638.34 ns *
+SUMMARY:BarrierClass                   min:    301.74 max:  15087.13 avg:   5220.15 (Skip First 2)
+
+WhileLoop                     : 0 (Notify              ) =        0.016294ms =        16294.10 ns *
+WhileLoop                     : 1 (Notify              ) =        0.001207ms =         1206.97 ns *
+WhileLoop                     : 2 (Notify              ) =        0.000905ms =          905.23 ns *
+WhileLoop                     : 3 (Notify              ) =        0.001207ms =         1206.97 ns *
+WhileLoop                     : 4 (Notify              ) =        0.000905ms =          905.23 ns *
+WhileLoop                     : 5 (Notify              ) =        0.000905ms =          905.23 ns *
+WhileLoop                     : 6 (Notify              ) =        0.000905ms =          905.23 ns *
+WhileLoop                     : 7 (Notify              ) =        0.009354ms =         9354.02 ns *
+WhileLoop                     : 8 (Notify              ) =        0.000603ms =          603.49 ns *
+WhileLoop                     : 9 (Notify              ) =        0.000302ms =          301.74 ns *
+WhileLoop                     :10 (Notify              ) =        0.001207ms =         1206.97 ns *
+WhileLoop                     :11 (Notify              ) =        0.001207ms =         1206.97 ns *
+SUMMARY:WhileLoop                      min:    301.74 max:  16294.10 avg:   1750.11 (Skip First 2)
+
+MutexClass                    : 0 (Notify              ) =        0.012975ms =        12974.93 ns *
+MutexClass                    : 1 (Notify              ) =        0.018708ms =        18708.04 ns *
+MutexClass                    : 2 (Notify              ) =        0.041640ms =        41640.48 ns *
+MutexClass                    : 3 (Notify              ) =        0.010863ms =        10862.73 ns *
+MutexClass                    : 4 (Notify              ) =        0.026553ms =        26553.35 ns *
+MutexClass                    : 5 (Notify              ) =        0.023234ms =        23234.18 ns *
+MutexClass                    : 6 (Notify              ) =        0.025346ms =        25346.38 ns *
+MutexClass                    : 7 (Notify              ) =        0.016898ms =        16897.59 ns *
+MutexClass                    : 8 (Notify              ) =        0.016294ms =        16294.10 ns *
+MutexClass                    : 9 (Notify              ) =        0.012371ms =        12371.45 ns *
+MutexClass                    :10 (Notify              ) =        0.013880ms =        13880.16 ns *
+MutexClass                    :11 (Notify              ) =        0.044054ms =        44054.42 ns *
+SUMMARY:MutexClass                     min:  10862.73 max:  44054.42 avg:  23113.48 (Skip First 2)
+
+MonitorClass                  : 0 (Notify              ) =        0.015992ms =        15992.36 ns *
+MonitorClass                  : 1 (Notify              ) =        0.027760ms =        27760.32 ns *
+MonitorClass                  : 2 (Notify              ) =        0.014484ms =        14483.64 ns *
+MonitorClass                  : 3 (Notify              ) =        0.037718ms =        37717.82 ns *
+MonitorClass                  : 4 (Notify              ) =        0.014484ms =        14483.64 ns *
+MonitorClass                  : 5 (Notify              ) =        0.033192ms =        33191.69 ns *
+MonitorClass                  : 6 (Notify              ) =        0.025648ms =        25648.12 ns *
+MonitorClass                  : 7 (Notify              ) =        0.103498ms =       103497.71 ns *
+MonitorClass                  : 8 (Notify              ) =        0.019312ms =        19311.53 ns *
+MonitorClass                  : 9 (Notify              ) =        0.127939ms =       127938.86 ns *
+MonitorClass                  :10 (Notify              ) =        0.019613ms =        19613.27 ns *
+MonitorClass                  :11 (Notify              ) =        0.013880ms =        13880.16 ns *
+SUMMARY:MonitorClass                   min:  13880.16 max: 127938.86 avg:  40976.64 (Skip First 2)
+
+ManualResetEventClass         : 0 (Notify              ) =        0.009656ms =         9655.76 ns *
+ManualResetEventClass         : 1 (Notify              ) =        0.011164ms =        11164.48 ns *
+ManualResetEventClass         : 2 (Notify              ) =        0.021122ms =        21121.98 ns *
+ManualResetEventClass         : 3 (Notify              ) =        0.074229ms =        74228.68 ns *
+ManualResetEventClass         : 4 (Notify              ) =        0.013277ms =        13276.67 ns *
+ManualResetEventClass         : 5 (Notify              ) =        0.015691ms =        15690.61 ns *
+ManualResetEventClass         : 6 (Notify              ) =        0.013578ms =        13578.42 ns *
+ManualResetEventClass         : 7 (Notify              ) =        0.057633ms =        57632.84 ns *
+ManualResetEventClass         : 8 (Notify              ) =        0.015087ms =        15087.13 ns *
+ManualResetEventClass         : 9 (Notify              ) =        0.053107ms =        53106.70 ns *
+ManualResetEventClass         :10 (Notify              ) =        0.022631ms =        22630.69 ns *
+ManualResetEventClass         :11 (Notify              ) =        0.054012ms =        54011.92 ns *
+SUMMARY:ManualResetEventClass          min:   9655.76 max:  74228.68 avg:  34036.56 (Skip First 2)
+
+ManualResetEventSlimClass     : 0 (Notify              ) =        0.032890ms =        32889.94 ns *
+ManualResetEventSlimClass     : 1 (Notify              ) =        0.016294ms =        16294.10 ns *
+ManualResetEventSlimClass     : 2 (Notify              ) =        0.027157ms =        27156.83 ns *
+ManualResetEventSlimClass     : 3 (Notify              ) =        0.018105ms =        18104.56 ns *
+ManualResetEventSlimClass     : 4 (Notify              ) =        0.017803ms =        17802.81 ns *
+ManualResetEventSlimClass     : 5 (Notify              ) =        0.017199ms =        17199.33 ns *
+ManualResetEventSlimClass     : 6 (Notify              ) =        0.016596ms =        16595.84 ns *
+ManualResetEventSlimClass     : 7 (Notify              ) =        0.020217ms =        20216.75 ns *
+ManualResetEventSlimClass     : 8 (Notify              ) =        0.018708ms =        18708.04 ns *
+ManualResetEventSlimClass     : 9 (Notify              ) =        0.035907ms =        35907.37 ns *
+ManualResetEventSlimClass     :10 (Notify              ) =        0.018708ms =        18708.04 ns *
+ManualResetEventSlimClass     :11 (Notify              ) =        0.022329ms =        22328.95 ns *
+SUMMARY:ManualResetEventSlimClass      min:  16294.10 max:  35907.37 avg:  21272.85 (Skip First 2)
+
+BarrierClass                  : 0 (Notify              ) =        0.002716ms =         2715.68 ns *
+BarrierClass                  : 1 (Notify              ) =        0.009958ms =         9957.51 ns *
+BarrierClass                  : 2 (Notify              ) =        0.010863ms =        10862.73 ns *
+BarrierClass                  : 3 (Notify              ) =        0.012975ms =        12974.93 ns *
+BarrierClass                  : 4 (Notify              ) =        0.011466ms =        11466.22 ns *
+BarrierClass                  : 5 (Notify              ) =        0.008751ms =         8750.54 ns *
+BarrierClass                  : 6 (Notify              ) =        0.009052ms =         9052.28 ns *
+BarrierClass                  : 7 (Notify              ) =        0.008449ms =         8448.79 ns *
+BarrierClass                  : 8 (Notify              ) =        0.012673ms =        12673.19 ns *
+BarrierClass                  : 9 (Notify              ) =        0.002414ms =         2413.94 ns *
+BarrierClass                  :10 (Notify              ) =        0.018406ms =        18406.30 ns *
+BarrierClass                  :11 (Notify              ) =        0.003017ms =         3017.43 ns *
+SUMMARY:BarrierClass                   min:   2413.94 max:  18406.30 avg:   9806.63 (Skip First 2)
+
+WhileLoop                     : 0 (Notify              ) =        0.001207ms =         1206.97 ns *
+WhileLoop                     : 1 (Notify              ) =        0.001207ms =         1206.97 ns *
+WhileLoop                     : 2 (Notify              ) =        0.001207ms =         1206.97 ns *
+WhileLoop                     : 3 (Notify              ) =        0.000905ms =          905.23 ns *
+WhileLoop                     : 4 (Notify              ) =        0.000603ms =          603.49 ns *
+WhileLoop                     : 5 (Notify              ) =        0.000905ms =          905.23 ns *
+WhileLoop                     : 6 (Notify              ) =        0.000905ms =          905.23 ns *
+WhileLoop                     : 7 (Notify              ) =        0.017199ms =        17199.33 ns *
+WhileLoop                     : 8 (Notify              ) =        0.000905ms =          905.23 ns *
+WhileLoop                     : 9 (Notify              ) =        0.000603ms =          603.49 ns *
+WhileLoop                     :10 (Notify              ) =        0.000603ms =          603.49 ns *
+WhileLoop                     :11 (Notify              ) =        0.001207ms =         1206.97 ns *
+SUMMARY:WhileLoop                      min:    603.49 max:  17199.33 avg:   2504.46 (Skip First 2)
+
+Press any key to continue . . .

@@ -1,0 +1,219 @@
+Timestamp Delta: 1  Attemps:14
+DateTime Delta: 00:00:00.0013766  Attemps:1
+Timestamp vs DateTime
+0.00ms  vs  1.00ms
+301.74ns  vs  100,000.00ns
+
+
+min:1 = 0.000302ms = 301.74ns
+max:58191 = 17.558703ms = 17558703.27ns
+Delta:0 Count:7066851    = 0.000000ms = 0.00ns
+Delta:1 Count:932460    = 0.000302ms = 301.74ns
+Delta:2 Count:67    = 0.000603ms = 603.49ns
+Delta:3 Count:9    = 0.000905ms = 905.23ns
+Delta:4 Count:11    = 0.001207ms = 1206.97ns
+Delta:5 Count:7    = 0.001509ms = 1508.71ns
+Delta:6 Count:9    = 0.001810ms = 1810.46ns
+Delta:7 Count:5    = 0.002112ms = 2112.20ns
+Delta:8 Count:5    = 0.002414ms = 2413.94ns
+Delta:9 Count:6    = 0.002716ms = 2715.68ns
+Delta:10 Count:17    = 0.003017ms = 3017.43ns
+Delta:11 Count:9    = 0.003319ms = 3319.17ns
+Delta:12 Count:9    = 0.003621ms = 3620.91ns
+Delta:13 Count:13    = 0.003923ms = 3922.65ns
+Delta:14 Count:15    = 0.004224ms = 4224.40ns
+Delta:15 Count:25    = 0.004526ms = 4526.14ns
+Delta:16 Count:13    = 0.004828ms = 4827.88ns
+Delta:17 Count:18    = 0.005130ms = 5129.62ns
+Delta:18 Count:15    = 0.005431ms = 5431.37ns
+Delta:19 Count:26    = 0.005733ms = 5733.11ns
+Delta:20 Count:24    = 0.006035ms = 6034.85ns
+Delta:21 Count:27    = 0.006337ms = 6336.59ns
+Delta:22 Count:26    = 0.006638ms = 6638.34ns
+Delta:23 Count:23    = 0.006940ms = 6940.08ns
+Delta:24 Count:18    = 0.007242ms = 7241.82ns
+Delta:25 Count:22    = 0.007544ms = 7543.56ns
+Delta:26 Count:20    = 0.007845ms = 7845.31ns
+Delta:27 Count:22    = 0.008147ms = 8147.05ns
+Delta:28 Count:34    = 0.008449ms = 8448.79ns
+Delta:29 Count:14    = 0.008751ms = 8750.54ns
+Delta:30 Count:20    = 0.009052ms = 9052.28ns
+Delta:31 Count:17    = 0.009354ms = 9354.02ns
+Delta:32 Count:16    = 0.009656ms = 9655.76ns
+Delta:33 Count:24    = 0.009958ms = 9957.51ns
+Delta:34 Count:19    = 0.010259ms = 10259.25ns
+Delta:35 Count:14    = 0.010561ms = 10560.99ns
+Delta:36 Count:10    = 0.010863ms = 10862.73ns
+Delta:37 Count:14    = 0.011164ms = 11164.48ns
+Delta:38 Count:5    = 0.011466ms = 11466.22ns
+Delta:39 Count:4    = 0.011768ms = 11767.96ns
+Delta:40 Count:4    = 0.012070ms = 12069.70ns
+Delta:41 Count:8    = 0.012371ms = 12371.45ns
+Delta:42 Count:2    = 0.012673ms = 12673.19ns
+Delta:43 Count:3    = 0.012975ms = 12974.93ns
+Delta:44 Count:1    = 0.013277ms = 13276.67ns
+Delta:46 Count:1    = 0.013880ms = 13880.16ns
+Delta:47 Count:2    = 0.014182ms = 14181.90ns
+Delta:48 Count:2    = 0.014484ms = 14483.64ns
+Delta:57 Count:1    = 0.017199ms = 17199.33ns
+Delta:67 Count:1    = 0.020217ms = 20216.75ns
+Delta:238 Count:1    = 0.071815ms = 71814.74ns
+Delta:3035 Count:1    = 0.915789ms = 915788.77ns
+Delta:8131 Count:1    = 2.453469ms = 2453469.03ns
+Delta:8328 Count:1    = 2.512912ms = 2512912.32ns
+Delta:8415 Count:1    = 2.539164ms = 2539163.93ns
+Delta:19959 Count:1    = 6.022480ms = 6022480.43ns
+Delta:19966 Count:1    = 6.024593ms = 6024592.62ns
+Delta:19970 Count:1    = 6.025800ms = 6025799.60ns
+Delta:19976 Count:1    = 6.027610ms = 6027610.05ns
+Delta:20308 Count:1    = 6.127789ms = 6127788.59ns
+Delta:58188 Count:1    = 17.557798ms = 17557798.04ns
+Delta:58191 Count:1    = 17.558703ms = 17558703.27ns
+Press any key to continue . . .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+SingleThreadIncrement    : 0 total=21.942118ms  i=0.000002ms i=2.19ns  Loop:10,000,000
+SingleThreadIncrement    : 1 total=21.940609ms  i=0.000002ms i=2.19ns  Loop:10,000,000
+SingleThreadIncrement    : 2 total=22.016347ms  i=0.000002ms i=2.20ns  Loop:10,000,000
+SingleThreadIncrement    : 3 total=21.927936ms  i=0.000002ms i=2.19ns  Loop:10,000,000
+SingleThreadIncrement    : 4 total=21.924617ms  i=0.000002ms i=2.19ns  Loop:10,000,000
+SingleThreadIncrement    : 5 total=22.208858ms  i=0.000002ms i=2.22ns  Loop:10,000,000
+SingleThreadIncrement    : 6 total=22.046219ms  i=0.000002ms i=2.20ns  Loop:10,000,000
+SUMMARY:SingleThreadIncrement          min:2.19 max:2.22 avg:2.20
+
+SingleThreadInterlocked  : 0 total=55.231266ms  i=0.000006ms i=5.52ns  Loop:10,000,000
+SingleThreadInterlocked  : 1 total=55.044789ms  i=0.000006ms i=5.50ns  Loop:10,000,000
+SingleThreadInterlocked  : 2 total=54.839001ms  i=0.000005ms i=5.48ns  Loop:10,000,000
+SingleThreadInterlocked  : 3 total=53.642893ms  i=0.000005ms i=5.36ns  Loop:10,000,000
+SingleThreadInterlocked  : 4 total=53.403913ms  i=0.000005ms i=5.34ns  Loop:10,000,000
+SingleThreadInterlocked  : 5 total=52.809480ms  i=0.000005ms i=5.28ns  Loop:10,000,000
+SingleThreadInterlocked  : 6 total=51.716568ms  i=0.000005ms i=5.17ns  Loop:10,000,000
+SUMMARY:SingleThreadInterlocked        min:5.17 max:5.52 avg:5.38
+
+SingleThreadLockStatement: 0 total=145.308069ms  i=0.000015ms i=14.53ns  Loop:10,000,000
+SingleThreadLockStatement: 1 total=136.930789ms  i=0.000014ms i=13.69ns  Loop:10,000,000
+SingleThreadLockStatement: 2 total=136.732544ms  i=0.000014ms i=13.67ns  Loop:10,000,000
+SingleThreadLockStatement: 3 total=138.507998ms  i=0.000014ms i=13.85ns  Loop:10,000,000
+SingleThreadLockStatement: 4 total=137.619667ms  i=0.000014ms i=13.76ns  Loop:10,000,000
+SingleThreadLockStatement: 5 total=138.174270ms  i=0.000014ms i=13.82ns  Loop:10,000,000
+SingleThreadLockStatement: 6 total=137.058124ms  i=0.000014ms i=13.71ns  Loop:10,000,000
+SUMMARY:SingleThreadLockStatement      min:13.67 max:14.53 avg:13.86
+
+Press any key to continue . . .

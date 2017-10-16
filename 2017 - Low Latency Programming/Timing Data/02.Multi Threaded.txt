@@ -1,0 +1,136 @@
+FINAL:10000000  MultiThreadInterlocked   : 0 total=130.850072ms  i=0.000013ms i=13.09ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 1 total=185.721359ms  i=0.000019ms i=18.57ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 2 total=141.056515ms  i=0.000014ms i=14.11ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 3 total=154.548634ms  i=0.000015ms i=15.45ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 4 total=177.988602ms  i=0.000018ms i=17.80ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 5 total=129.983769ms  i=0.000013ms i=13.00ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 6 total=170.110103ms  i=0.000017ms i=17.01ns  Loop:10,000,000
+SUMMARY:MultiThreadInterlocked         min:     13.00 max:     18.57 avg:     15.58
+
+FINAL:10000000  MultiThreadInterlocked   : 0 total=324.071546ms  i=0.000032ms i=32.41ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 1 total=375.155360ms  i=0.000038ms i=37.52ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 2 total=326.922711ms  i=0.000033ms i=32.69ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 3 total=613.274019ms  i=0.000061ms i=61.33ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 4 total=321.927664ms  i=0.000032ms i=32.19ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 5 total=562.974735ms  i=0.000056ms i=56.30ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 6 total=351.133330ms  i=0.000035ms i=35.11ns  Loop:10,000,000
+SUMMARY:MultiThreadInterlocked         min:     32.19 max:     61.33 avg:     41.08
+
+FINAL:10000000  MultiThreadInterlocked   : 0 total=582.151684ms  i=0.000058ms i=58.22ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 1 total=574.752352ms  i=0.000057ms i=57.48ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 2 total=695.323563ms  i=0.000070ms i=69.53ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 3 total=697.433649ms  i=0.000070ms i=69.74ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 4 total=855.679837ms  i=0.000086ms i=85.57ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 5 total=713.558472ms  i=0.000071ms i=71.36ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 6 total=1590.298131ms  i=0.000159ms i=159.03ns  Loop:10,000,000
+SUMMARY:MultiThreadInterlocked         min:     57.48 max:    159.03 avg:     81.56
+
+FINAL:10000000  MultiThreadInterlocked   : 0 total=1381.936421ms  i=0.000138ms i=138.19ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 1 total=1205.264322ms  i=0.000121ms i=120.53ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 2 total=2683.987999ms  i=0.000268ms i=268.40ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 3 total=1655.322151ms  i=0.000166ms i=165.53ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 4 total=1736.216021ms  i=0.000174ms i=173.62ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 5 total=1626.240803ms  i=0.000163ms i=162.62ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 6 total=1747.849405ms  i=0.000175ms i=174.78ns  Loop:10,000,000
+SUMMARY:MultiThreadInterlocked         min:    120.53 max:    268.40 avg:    171.95
+
+FINAL:10000000  MultiThreadInterlocked   : 0 total=2645.114802ms  i=0.000265ms i=264.51ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 1 total=2604.863547ms  i=0.000260ms i=260.49ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 2 total=2740.216524ms  i=0.000274ms i=274.02ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 3 total=2963.474964ms  i=0.000296ms i=296.35ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 4 total=3277.255277ms  i=0.000328ms i=327.73ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 5 total=3320.969330ms  i=0.000332ms i=332.10ns  Loop:10,000,000
+FINAL:10000000  MultiThreadInterlocked   : 6 total=3162.920482ms  i=0.000316ms i=316.29ns  Loop:10,000,000
+SUMMARY:MultiThreadInterlocked         min:    260.49 max:    332.10 avg:    295.93
+
+FINAL:10000000  MultiThreadLockStatement : 0 total=275.454175ms  i=0.000028ms i=27.55ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 1 total=316.920548ms  i=0.000032ms i=31.69ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 2 total=276.821371ms  i=0.000028ms i=27.68ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 3 total=302.454103ms  i=0.000030ms i=30.25ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 4 total=308.621420ms  i=0.000031ms i=30.86ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 5 total=300.186809ms  i=0.000030ms i=30.02ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 6 total=330.677596ms  i=0.000033ms i=33.07ns  Loop:10,000,000
+SUMMARY:MultiThreadLockStatement       min:     27.55 max:     33.07 avg:     30.16
+
+FINAL:10000000  MultiThreadLockStatement : 0 total=612.089377ms  i=0.000061ms i=61.21ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 1 total=651.428766ms  i=0.000065ms i=65.14ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 2 total=636.794250ms  i=0.000064ms i=63.68ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 3 total=609.330545ms  i=0.000061ms i=60.93ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 4 total=532.055172ms  i=0.000053ms i=53.21ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 5 total=748.978224ms  i=0.000075ms i=74.90ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 6 total=604.888592ms  i=0.000060ms i=60.49ns  Loop:10,000,000
+SUMMARY:MultiThreadLockStatement       min:     53.21 max:     74.90 avg:     62.79
+
+FINAL:10000000  MultiThreadLockStatement : 0 total=843.392576ms  i=0.000084ms i=84.34ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 1 total=1054.097921ms  i=0.000105ms i=105.41ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 2 total=1296.381231ms  i=0.000130ms i=129.64ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 3 total=1063.594666ms  i=0.000106ms i=106.36ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 4 total=1165.729102ms  i=0.000117ms i=116.57ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 5 total=1076.145347ms  i=0.000108ms i=107.61ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 6 total=1142.452075ms  i=0.000114ms i=114.25ns  Loop:10,000,000
+SUMMARY:MultiThreadLockStatement       min:     84.34 max:    129.64 avg:    109.17
+
+FINAL:10000000  MultiThreadLockStatement : 0 total=2671.833204ms  i=0.000267ms i=267.18ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 1 total=2491.325957ms  i=0.000249ms i=249.13ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 2 total=2836.440125ms  i=0.000284ms i=283.64ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 3 total=2953.204552ms  i=0.000295ms i=295.32ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 4 total=2471.735620ms  i=0.000247ms i=247.17ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 5 total=2865.846450ms  i=0.000287ms i=286.58ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 6 total=3034.121354ms  i=0.000303ms i=303.41ns  Loop:10,000,000
+SUMMARY:MultiThreadLockStatement       min:    247.17 max:    303.41 avg:    276.06
+
+FINAL:10000000  MultiThreadLockStatement : 0 total=4776.746992ms  i=0.000478ms i=477.67ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 1 total=5612.398060ms  i=0.000561ms i=561.24ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 2 total=6816.121383ms  i=0.000682ms i=681.61ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 3 total=7554.183163ms  i=0.000755ms i=755.42ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 4 total=7494.161432ms  i=0.000749ms i=749.42ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 5 total=6620.504677ms  i=0.000662ms i=662.05ns  Loop:10,000,000
+FINAL:10000000  MultiThreadLockStatement : 6 total=7885.058099ms  i=0.000789ms i=788.51ns  Loop:10,000,000
+SUMMARY:MultiThreadLockStatement       min:    477.67 max:    788.51 avg:    667.99
+
+FINAL:10000000  MultiThreadSpinLockStatement: 0 total=373.193429ms  i=0.000037ms i=37.32ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 1 total=336.697964ms  i=0.000034ms i=33.67ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 2 total=230.557593ms  i=0.000023ms i=23.06ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 3 total=239.500640ms  i=0.000024ms i=23.95ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 4 total=233.533982ms  i=0.000023ms i=23.35ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 5 total=222.944628ms  i=0.000022ms i=22.29ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 6 total=261.079762ms  i=0.000026ms i=26.11ns  Loop:10,000,000
+SUMMARY:MultiThreadSpinLockStatement   min:     22.29 max:     37.32 avg:     27.11
+
+FINAL:10000000  MultiThreadSpinLockStatement: 0 total=501.243632ms  i=0.000050ms i=50.12ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 1 total=545.785667ms  i=0.000055ms i=54.58ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 2 total=451.477830ms  i=0.000045ms i=45.15ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 3 total=429.686885ms  i=0.000043ms i=42.97ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 4 total=465.094568ms  i=0.000047ms i=46.51ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 5 total=465.930093ms  i=0.000047ms i=46.59ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 6 total=521.329731ms  i=0.000052ms i=52.13ns  Loop:10,000,000
+SUMMARY:MultiThreadSpinLockStatement   min:     42.97 max:     54.58 avg:     48.29
+
+FINAL:10000000  MultiThreadSpinLockStatement: 0 total=1012.547664ms  i=0.000101ms i=101.25ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 1 total=969.211091ms  i=0.000097ms i=96.92ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 2 total=859.225010ms  i=0.000086ms i=85.92ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 3 total=966.020767ms  i=0.000097ms i=96.60ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 4 total=871.004438ms  i=0.000087ms i=87.10ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 5 total=906.456477ms  i=0.000091ms i=90.65ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 6 total=1057.062844ms  i=0.000106ms i=105.71ns  Loop:10,000,000
+SUMMARY:MultiThreadSpinLockStatement   min:     85.92 max:    105.71 avg:     94.88
+
+FINAL:10000000  MultiThreadSpinLockStatement: 0 total=2182.055187ms  i=0.000218ms i=218.21ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 1 total=2791.220980ms  i=0.000279ms i=279.12ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 2 total=2426.472119ms  i=0.000243ms i=242.65ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 3 total=2450.396988ms  i=0.000245ms i=245.04ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 4 total=2361.792387ms  i=0.000236ms i=236.18ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 5 total=2217.885611ms  i=0.000222ms i=221.79ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 6 total=2398.133662ms  i=0.000240ms i=239.81ns  Loop:10,000,000
+SUMMARY:MultiThreadSpinLockStatement   min:    218.21 max:    279.12 avg:    240.40
+
+FINAL:10000000  MultiThreadSpinLockStatement: 0 total=5846.670105ms  i=0.000585ms i=584.67ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 1 total=6884.269947ms  i=0.000688ms i=688.43ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 2 total=9135.188226ms  i=0.000914ms i=913.52ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 3 total=9183.879824ms  i=0.000918ms i=918.39ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 4 total=9679.764810ms  i=0.000968ms i=967.98ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 5 total=7902.417652ms  i=0.000790ms i=790.24ns  Loop:10,000,000
+FINAL:10000000  MultiThreadSpinLockStatement: 6 total=8361.683156ms  i=0.000836ms i=836.17ns  Loop:10,000,000
+SUMMARY:MultiThreadSpinLockStatement   min:    584.67 max:    967.98 avg:    814.20
+
+Press any key to continue . . .

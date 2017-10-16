@@ -1,0 +1,7 @@
+How fast is fast? Computing at the nanosecond level requires specialized techniques and creative ways to capture timing data.
+
+This topic will discuss various low-latency methods that can provide speed boosts by utilizing concepts such as lock-free and non-blocking operations as well as generalized code optimization.
+
+The performance implications of .net locking and synchronization primitives (signals/events, lock/monitor, interlocked) and various threading (thread pool, tasks, async) patterns are compared along with their latency implications.
+
+Design patterns such as pessimistic vs optimistic concurrency, lock-free circular queues and the disrupter pattern will be discussed and demonstrated. Basic SIMD hardware based vector functions will also be demonstrated and compared to standard .Net code.
